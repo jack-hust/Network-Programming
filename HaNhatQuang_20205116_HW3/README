@@ -1,0 +1,12 @@
+cài đặt libxml2
+Open Terminal
+
+b1
+sudo apt-get install libxml2-dev
+
+b2
+gcc -Wall -g -o resolver hw3.c -I/usr/include/libxml2 -L/usr/lib -lcurl -lxml2
+
+b3
+make
+
